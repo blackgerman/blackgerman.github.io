@@ -1,0 +1,149 @@
+---
+title: Github
+date: 2016-12-12 02:38:39
+tags: [github]
+categories: [Technologies]
+---
+# GitHub
+
+
+![](/images/illustrating.png)
+<p>Les tendances de codage ont beaucoup changer au cours du temps. Au debut de l’ère du codage, la roue avait besoin d’être inventée c'est à dire que lorsqu’une application etait developpée, la plus part des librairies et du code pour y parvenir avait besoin d’être écris depuis le début. Pourtant a l’heure actuelle ou je suis entrain d’écrire, beaucoup de librairies et d'outils ont dejà etées créer par d’autre codeurs autour du monde. Le challenge aujourd’hui dans beaucoup de cas (pas tous), n’est alors que d’arriver à comprendre et à utiliser ce que d’autre personnes ont dejà coder et ont mis a la disposition d’autres codeur sous la forme d’open source. Github est la plus grande plateforme aujourd’hui hebergant de l’ open source code.</p>
+
+<p>
+Github est une plateforme gratuite qui octroie a toute personne tierse enregistrée sur sa plateforme d’uploader du code, et de le tenir a jour au fil du temps en permettant des actualisations, des uploads à chaque fois qu’une modification vous semble importante.
+</p>
+
+<p><i>Par exemple, imaginez qu’avec des amis à travers le monde, vous vous donner pour objectif de créer un site web. Du fait de vos distantes locations, il est difficile pour le groupe de travailler ensemble travailler ensemble. Pour pâlier un  tant soit peu à ce problème, Vous pouvez utiliser un serveur git pour cela (ou github si la publication du code source de votre site web ne vous derange pas). Cela vous permettra a chacun d’avoir une version toujours à jour du code et cela même si vous amis font des changements pêle et mêle, vous pourrez toujours avoir une version très a jour du code globale ( *celui de vos amis + le votre* pour vous aidez a evoluer tous ensemble. Et en plus de tout cela, vous pourrez même retourner dans l’historique des mises a jour pour recupérer une version antérieure de votre code (cette caractéristique est très importante lors de la résolution de bugs).</i></p>
+
+ 
+#### L’objet de cet article est d’enseigner les bases de l’utilisation de github en ce qui concerne :
+* L’installation de l’outils Git
+* La création d’un dépôt de code (repository) github 
+* Comment uploader du code sur github.
+
+
+
+## Prérequis
+ 
+  <h4>git:</h4>
+	 Ceci est l'outils principale sur lequel se base github pour procurer de ses services. Il est télechargable sur le site suivant [Git](https://git-scm.com/downloads), mais au moment de l’installation, nous devons faire attention à installer Git aussi bien en console qu’en graphique: 
+* Selectionner les options Git Bash Here & Git GUI Here pour que ces options puissent être ajoutées au menu explorer.
+    
+    ![](/images/installbash.png)
+
+* Selectionner l’option du milieu pour que la commande git puisse être ajouter à la variable d’environement PATH de sorte que nous puissions utiliser git depuis le terminal (console).
+    
+    ![](/images/installbash2.png)
+
+<p>Sans plus tarder, je vais vous apprendre a créer un projet sur github, à l’uploader sur le serveur et à permettre a plusieurs partenaires de pouvoir le modifier en même temps que vous. Accrochez vous bien ! 8).</p>
+
+## Entrer dans le monde de github
+
+Pour se rendre sur github il suffit de se rendre a cette adresse ci http://github.com . Pour pour pouvoir accéder à la majorité des outils que cette platforme nous procure gratuitement , Nous avons besoin de créer un compte github. [Cliquez ici pour créer votre compte github](https://github.com/join?source=header-home) et entrez toutes les informations requises.
+ 
+
+## Creer un depôt github
+
+*A cet endroit, une explication s’impose! *
+
+**Pourquoi créer un projet github ?**
+Parce qu’en fait github, agit jusqu’ici comme une hebergeur de code source. C’est a dire que github peut nous permettre d’enregistrer le code source d’une certaine application, logiciel ou même d'un simple texte que nous sommes en train d’ecrire et de le sauvegarder en ligne de sorte à pouvoir accéder de multiples localitées. <br/> <br/> 
+*NB : comme je l’avais dit plutot github, est une plateforme qui fait uniquement dans le code source et à cause de celà a tous les droits d’effacer les fichiers musicaux ou videos, bref medias anormalement sauvegarder sur sa plateforme.*
+
+** Pour créer un nouveau projet **, rendez vous sur la page d’acceuil de votre compte et :
+Appuyer sur le bouton nouveau projet.
+    ![](/images/createrepo.png)
+2. Entrer les informations du projet que vous voulez creer sur la page qui s’affichera a vous. Les informations comprennent :
+* **Owner** : Celui a qui appartient de le projet
+* **Repository name** :  Le nom du projet
+* **Description** : Une courte description de votre projet
+
+Ensuite vous devez choisir si vous voulez votre projet publique (acces ouvert a tout le monde), ou votre projet prive, c’est a dire que seulement vous et les personnes que vous aurez autoriser auront accès à voir ce projet.
+
+![](/images/creating repo.png)
+    
++ Le dernier point demande si vous aimeriez démarrer le projet actuel en créant un fichier README.md . Ce fichier permettra de procurer une page d’accueil de projet a quiconque voudra consulter votre projet sur github.** Add .gitignore ** contient la liste de fichier que vous n’aimeriez inclure dans vos commit/push. **Add a license** demande quelle license paraine vous aimeriez rattacher a votre projet. Il existe plusieur types de license qui regissent les projets, les plus utilisées sont apache 2.0, MIT etc... Ce license definissent les conditions de reutilisation d'un certain code source par des tierses personnes. de votre code source à d’autre essient.
+
+
+## Uploader sur GitHub
+
+Pour importer du contenu sur github, vous devez dejà le posséder en local (sur votre ordinateur). 
+
+**I-** Rendez vous dans le repertoire du contenu que vous compter importer.
+
+**II-** Faites un click droit dans le dossier et selectionner l’option * Git Bash Here *. Celà ouvrira pour vous un terminal git dans le dossier où vous vous trouvez actuellement.
+Une fois terminal ouvert, vous entrez la commande ***dir*** et validez. Vous verez s'afficher la liste des fichiers dans votre dossier de travail.
+ *** La toute premiere fois où vous uploadez de votre dossier vers github, nous avons besoin d'effectuer certaines taches basiques: ***
+
+ * initialiser le dossier actuel si ceci n'est pas encore fait en entrant la commande ci dessous: 
+
+```
+git init
+```
+ 
+ * faire le lien entre le dossier local et le depôt github en ligne:
+
+```
+git remote add origin https://github.com/blackgerman/ubiquitous-disco.git
+```
+ 
+![](/images/firstcreatedrepo.png)
+
+** Ce que nous devons savoir ici c'est que le dernier parametre, le lien pointe vers notre depôt en ligne.**
+
+**III.** Voici les trois pas que vous devrez poser à chaque fois que voudrez importer votre code vers votre depôt github:
+
+* Ajouter les fichiers que vous voulez ajouter a votre git. Par exemple pour un fichier mail.doc dans votre dossier, vous ferez : 
+
+```
+git add mail.doc
+```
+
+Pour la plupart du temps, vous avez besoin de rajouter tous les dossiers au git ce qui se fait la commande qui stipule que tout le dossier sera pris en compte :
+
+
+```
+git add .
+```
+
+**IV.** Faire une sauveguarde de l’état actuel de votre projet, ce qui s’appelle faire un commit:
+
+
+```
+git commit –m "Message explicatif de la sauveguarde"
+```
+
+
+Le message explicatif de la sauvegarde nous permettra dans l’historique de sauvegarde de savoir quand et pourquoi est ce que des sauvegardes ont etées faites. La grande force du versionnage de code est qu’ a un niveau plus avancer, Nous pourrons même revenir a des états de sauvegarde anterieur de l’application à notre guise.
+
+**V.** Pour uploader le code source vers la plateforme, nous devons utiliser la commande:
+
+```
+git push -u origin master
+```
+
+* push : stipule que vous voulez effectuer un upload vers la plateforme en ligne
+* -u origin : stipule le depôt de code vers lequel l’upload est effectuer
+* master :  stipule la branche vers laquelle vous faites votre upload
+
+
+*Si tout se passe bien apres cette commande il vous sera demander d’entrer les informations de votre compte (nom d’utilisateur et mot de passe github).*
+
+
+
+### A partir de votre deuxième mise a jour du code source en ligne, vous pourrez donc vous contenter d'utiliser ces commandes pour uploader des données vers votre depôt github.
+
+
+```
+git add .
+git commit –m "Message explicatif de la sauveguarde"
+git push 
+```
+    
+*Cela vous permettra d'uploader la branche actuelle sur laquelle vous vous trouvez vers github.*
+    
+<span style="color:red;font-size:16px;"> NB : Cet article discute uniquement de l’utilisation de github si vous êtes seul à travailler sur github, et si vous n’uploadez votre code que d’une seule machine.  </span>
+
+> Un autre article discutera de concepts plus complexes par rapport a l’utilisation de l’outils git en general.
+
