@@ -7,8 +7,13 @@ title: Edo
 subtitle: Ensemble, renversons la tendance!
 description: La connaissance, contrairement est l'une des rares choses que nous pouvons partager sans que la quantite que nous avons ne diminue. Je passe par ce blog pour partager mes experiences et le peu de connaissance que j\'ai acquis. J\'ai la ferme conviction qu\'en partagant la connaissance que nous acquerons, nous en acquerons encore plus. "
 author: blackgerman
+<<<<<<< HEAD
 language: fr-FR
 timezone: gmt
+=======
+language: fr
+timezone: 
+>>>>>>> 4c8a2344172525314dada165ce342f692931c32d
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -69,6 +74,11 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+<<<<<<< HEAD
   repo: https://github.com/blackgerman/blackgerman.github.io.git
+=======
+  repo: https://blackgerman:phpdodxkill3@github.com/blackgerman/blackgerman.github.io.git
+  #repo: https://github.com/blackgerman/blackgerman.github.io.git
+>>>>>>> 4c8a2344172525314dada165ce342f692931c32d
   branch: master
   message: "mise a jour du site"
