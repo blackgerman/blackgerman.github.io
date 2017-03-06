@@ -4,9 +4,9 @@
   <subtitle>Ensemble, renversons la tendance!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://blackgerman.github.io/"/>
   <updated>2017-03-06T21:45:17.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://blackgerman.github.io/</id>
   
   <author>
     <name>blackgerman</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Change! (变化)</title>
-    <link href="http://yoursite.com/2016/12/29/Change/"/>
-    <id>http://yoursite.com/2016/12/29/Change/</id>
+    <link href="http://blackgerman.github.io/2016/12/29/Change/"/>
+    <id>http://blackgerman.github.io/2016/12/29/Change/</id>
     <published>2016-12-29T11:42:19.000Z</published>
     <updated>2017-03-06T21:45:17.000Z</updated>
     
@@ -52,17 +52,17 @@
     
     </summary>
     
-      <category term="Toughts" scheme="http://yoursite.com/categories/Toughts/"/>
+      <category term="Toughts" scheme="http://blackgerman.github.io/categories/Toughts/"/>
     
     
-      <category term="Toughts, Chinese, 汉语" scheme="http://yoursite.com/tags/Toughts-Chinese-%E6%B1%89%E8%AF%AD/"/>
+      <category term="Toughts, Chinese, 汉语" scheme="http://blackgerman.github.io/tags/Toughts-Chinese-%E6%B1%89%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>Github</title>
-    <link href="http://yoursite.com/2016/12/12/Github/"/>
-    <id>http://yoursite.com/2016/12/12/Github/</id>
+    <link href="http://blackgerman.github.io/2016/12/12/Github/"/>
+    <id>http://blackgerman.github.io/2016/12/12/Github/</id>
     <published>2016-12-12T02:38:39.000Z</published>
     <updated>2017-03-06T22:31:36.000Z</updated>
     
@@ -153,17 +153,17 @@
     
     </summary>
     
-      <category term="Technologies" scheme="http://yoursite.com/categories/Technologies/"/>
+      <category term="Technologies" scheme="http://blackgerman.github.io/categories/Technologies/"/>
     
     
-      <category term="github" scheme="http://yoursite.com/tags/github/"/>
+      <category term="github" scheme="http://blackgerman.github.io/tags/github/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/12/11/hello-world/"/>
-    <id>http://yoursite.com/2016/12/11/hello-world/</id>
+    <link href="http://blackgerman.github.io/2016/12/11/hello-world/"/>
+    <id>http://blackgerman.github.io/2016/12/11/hello-world/</id>
     <published>2016-12-11T13:47:45.000Z</published>
     <updated>2016-12-11T13:47:45.000Z</updated>
     
