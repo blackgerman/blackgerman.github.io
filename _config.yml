@@ -4,16 +4,16 @@
 
 # Site
 title: Edo
-subtitle: Ensemble, renversons la tendance!
-description: La connaissance, contrairement est l'une des rares choses que nous pouvons partager sans que la quantite que nous avons ne diminue. Je passe par ce blog pour partager mes experiences et le peu de connaissance que j\'ai acquis. J\'ai la ferme conviction qu\'en partagant la connaissance que nous acquerons, nous en acquerons encore plus. "
+subtitle: Ensemble renversons la tendance!
+description: La connaissance contrairement est l'une des rares choses que nous pouvons partager sans que la quantite que nous avons ne diminue. Je passe par ce blog pour partager mes experiences et le peu de connaissance que j\'ai acquis. J\'ai la ferme conviction qu\'en partagant la connaissance que nous acquerons nous en acquerons encore plus. 
 author: blackgerman
-language: fr-FR
+language: fr
 timezone: gmt
 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blackgerman.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -45,7 +45,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: technologies
+default_category: technologies toughts
 category_map:
 tag_map:
 
